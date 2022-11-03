@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.util.*;
 import java.util.List;
 
-public class Game extends JFrame { //extends superklass JFrame
+public class Game extends JFrame {
 
     //skapar button planka
     private final JPanel panel = new JPanel(new GridLayout(4, 4, 1, 1)); //skapar panel,4 rader,4 kolumner och avstånd mellan knapparna
